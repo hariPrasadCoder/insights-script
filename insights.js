@@ -7,7 +7,7 @@
     window.posthog = window.posthog || [];
     const clientId = document.currentScript.getAttribute("data-project");
 
-    window.posthog.init("phx_ZrLHCdhQ5jo0SKx4PRrqJjaZmorUeYojWlO2HhgSptL82pW", {
+    window.posthog.init("phc_kLiYSRLtrulVfpgAXUATSD0uqJ3kgidQ6pbfG9jMCcd", {
       api_host: "https://app.posthog.com",
       loaded: function (ph) {
         ph.identify(clientId);
